@@ -1,6 +1,5 @@
 import { projectsInfo } from "@/utils";
 import ProjectCard from "./ProjectCard";
-import ViewWork from "@/components/ViewWork";
 
 const Projects = () => {
   return (

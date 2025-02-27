@@ -18,7 +18,6 @@ const LeadCard = ({ name, title, desc, imageSrc, linkedIn }: LeadCardProps) => {
           src={imageSrc}
           height={128}
           width={128}
-          layout="responsive"
           alt="lead_pic"
         />
         <div className="block md:hidden mt-2">

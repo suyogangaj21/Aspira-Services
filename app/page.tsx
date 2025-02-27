@@ -1,10 +1,11 @@
 import CallButtton from "@/components/CallButtton";
 import FAQs from "@/components/FAQs";
+import PreviousWork from "@/components/previouswork";
 import Services from "@/components/services";
 import Solutions from "@/components/solutions";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
-import ViewWork from "@/components/ViewWork";
+import ViewWorkButton from "@/components/viewworkbutton";
 import Image from "next/image";
 import Link from "next/link";
 import { FaMagic } from "react-icons/fa";
@@ -12,6 +13,7 @@ import {
   MdKeyboardArrowRight,
   MdOutlineReportGmailerrorred,
 } from "react-icons/md";
+import CustomButton from "./about/components/CustomButton";
 
 export default function Home() {
   return (
@@ -36,9 +38,7 @@ export default function Home() {
           <div className="flex flex-col gap-4 ">
             <CallButtton />
           </div>
-          <Button className="bg-white rounded-lg shadow-lg text-black hover:bg-white hover:text-neutral-700">
-            <Link href="/work">View our work</Link>
-          </Button>
+          <ViewWorkButton />
         </div>
       </div>
       <div className="flex flex-col gap-12 items-center my-20  justify-center h-[300px]">
@@ -134,8 +134,34 @@ export default function Home() {
         </h2>
         <Solutions />
       </div>
-      <ViewWork />
+      <div className="flex w-full  justify-center items-center mt-10">
+        <PreviousWork />
+      </div>
       <Services />
+      <div className="flex w-full justify-center items-center">
+        <div className="flex flex-col md:flex-row justify-between items-center w-full mx-3 md:mx-32 bg-[#F7F7F7] rounded-[1.25rem] p-6 md:p-10 mb-10">
+          <div className="flex flex-col items-start justify-center w-full ">
+            <p className="text-xl md:text-2xl font-medium">
+              Have unique or custom requests ? We are up for it 👍
+            </p>
+
+            <p className="font-light text-sm md:text-base">
+              Feel free to reach out – we’re here to help brainstorm and turn
+              your ideas into successful products.
+            </p>
+          </div>
+
+          <div className="mt-4 md:mt-0  md:flex md:justify-end">
+            <CustomButton
+              btnText="Contact Us"
+              bgColor="bg-white"
+              linkSrc="/work"
+              textColor="text-[#292929]"
+              targetTab="_self"
+            />
+          </div>
+        </div>
+      </div>
       <FAQs />
     </main>
   );

@@ -28,6 +28,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
+      <head>
+        <link rel="icon" href="/logo.png" sizes="any" />
+      </head>
+
       <body
         className={`${onest.variable} ${jetBrains_Mono.variable} antialiased`}
       >

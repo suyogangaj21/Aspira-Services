@@ -210,25 +210,6 @@ const Services = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col sm:flex-row justify-around rounded-xl bg-[#F7F7F7] w-full  items-center m-4 mx-8 p-5 gap-3 ">
-        <div className="flex flex-col gap-3">
-          <h2 className="md:text-[28px] text-base font-medium leading-6">
-            Have unique or custom requests ? We are up for it 👍{" "}
-          </h2>
-          <p className="text-sm md:text-base font-normal">
-            Feel free to reach out – we’re here to help brainstorm and turn your
-            ideas into successful products
-          </p>
-        </div>
-        <div>
-          <Link href={"https://cal.com/vineet-babar"}>
-            <Button className="rounded-xl text-base font-normal bg-white text-black shadow-xl hover:bg-white hover:text-black">
-              Contact Us
-              <MdKeyboardArrowRight width={20} height={20} />
-            </Button>
-          </Link>
-        </div>
-      </div>
     </div>
   );
 };

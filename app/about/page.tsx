@@ -4,6 +4,7 @@ import {
   AboutLeads,
   AboutFooter,
 } from "./components";
+import PreviousWork from "../../components/previouswork";
 
 const AboutPage = () => {
   return (
@@ -14,7 +15,7 @@ const AboutPage = () => {
         {/* <AboutValues /> */}
         <AboutLeads />
         <hr className="w-full border-t-[1px] border-[#E6E6E6]" />
-        <AboutFooter />
+        <PreviousWork />
       </main>
     </>
   );
