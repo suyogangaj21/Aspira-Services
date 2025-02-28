@@ -4,15 +4,15 @@ import { FaReact } from "react-icons/fa";
 
 const Solutions = () => {
   return (
-    <div className="flex flex-col gap-10 md:gap-4 px-2 md:px-28   w-full mt-10">
+    <div className="flex flex-col gap-10 md:gap-4  md:px-28   w-full mt-10">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
         <div className="flex  gap-2 ">
           <div className="flex justify-center gap-5 flex-col flex-wrap ">
-            <h2 className=" flex md:flex-wrap text-center font-medium text-base  md:text-[28px] leading-10  ">
+            <h2 className=" flex ml-[24px] flex-wrap text-center items-center font-medium text-[24px]  md:text-[28px]   ">
               <span className="font-medium leading-10 relative left-0 ">
                 1.
               </span>
-              <span className="md:ml-5 text-nowrap">We Design </span>
+              <span className="ml-5 ">We Design </span>
 
               <span className=" ">
                 <Image
@@ -24,19 +24,17 @@ const Solutions = () => {
                 />
               </span>
               <span className="">Stunning</span>
-              <span className="md:ml-9 text-nowrap ml-1">
-                Websites and Apps
-              </span>
+              <span className="ml-9  ">Websites and Apps</span>
             </h2>
 
-            <p className="text-sm md:text-base text-muted-foreground max-w-[415px]  ml-10">
+            <p className="text-base md:text-lg text-muted-foreground max-w-[415px]  ml-7">
               We design visually appealing and intuitive websites and apps that
               reflect your brand's personality while ensuring exceptional user
               experience and performance.
             </p>
           </div>
         </div>
-        <div className="  relative h-[360px] md:h-[500px]">
+        <div className="  relative h-[400px] md:h-[500px] w-full">
           <Image
             src="/Solutions/services1.png"
             alt="service1"
@@ -51,7 +49,7 @@ const Solutions = () => {
           ></Image>
         </div>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 ">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 ">
         <div className=" hidden lg:flex relative h-[500px]">
           <Image
             src="/Solutions/services2.png"
@@ -61,11 +59,11 @@ const Solutions = () => {
         </div>
         <div className="flex  gap-2 md:ml-20 ">
           <div className="flex justify-center gap-5 flex-col flex-wrap ">
-            <h2 className=" flex items-center justify-center md:flex-wrap text-center font-medium text-base  md:text-[28px] leading-10 max-w-[370px] ">
+            <h2 className=" flex items-center  ml-[24px] flex-wrap  text-center font-medium text-[24px] md:text-[28px]  max-w-[370px] ">
               <span className="">2.</span>
-              <span className="md:ml-5">Outsource </span>
+              <span className="ml-2">Outsource </span>
 
-              <span className=" w-10 h-10 md:w-12 md:h-12 md:mx-2 mx-1 ">
+              <span className=" w-10 h-10 md:w-12 md:h-12 mx-3">
                 <Image
                   src="/companyLogo/googlecloud.png"
                   alt="Figma logo"
@@ -75,19 +73,17 @@ const Solutions = () => {
                 />
               </span>
               <span> your </span>
-              <span className="md:ml-12 text-nowrap ml-1">
-                projects to our team
-              </span>
+              <span className="ml-7 ">projects to our team</span>
             </h2>
 
-            <p className="text-sm md:text-base text-muted-foreground max-w-[415px]  ml-10">
+            <p className="text-base md:text-lg text-muted-foreground max-w-[415px]  ml-10">
               Our expert team is ready to handle your projects with precision,
               delivering high-quality solutions on time. We become an extension
               of your team, ensuring seamless collaboration.
             </p>
           </div>
         </div>
-        <div className="md:hidden relative h-[360px]">
+        <div className="md:hidden relative h-[400px]">
           <Image
             src="/Solutions/services2.png"
             alt="service2"
@@ -96,14 +92,14 @@ const Solutions = () => {
           ></Image>
         </div>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-        <div className="flex  gap-2 md:ml-20 ">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 ">
+        <div className="flex  gap-2 md:ml-20 ml-6">
           <div className="flex justify-center gap-5 flex-col flex-wrap ">
-            <h2 className=" flex items-center justify-center md:flex-wrap text-center font-medium text-base  md:text-[28px] leading-10 max-w-[370px] ">
+            <h2 className=" flex items-center flex-wrap text-center font-medium text-[24px]  md:text-[28px]  max-w-[370px] ">
               <span className="">3.</span>
-              <span className="md:ml-5 m-1">Full </span>
+              <span className="ml-5 m-1">Full </span>
 
-              <span className=" w-10 h-10 md:w-12 md:h-12 md:mx-2 mx-1 ">
+              <span className=" w-10 h-10 md:w-12 md:h-12 mx-2 ">
                 <Image
                   src="/companyLogo/react.png"
                   alt="Figma logo"
@@ -113,12 +109,10 @@ const Solutions = () => {
                 />
               </span>
               <span> Development </span>
-              <span className="md:ml-12 text-nowrap ml-1">
-                Lifecycle Support
-              </span>
+              <span className="ml-10">Lifecycle Support</span>
             </h2>
 
-            <p className="text-sm md:text-base text-muted-foreground max-w-[415px]  ml-10">
+            <p className="text-base md:text-lg text-muted-foreground max-w-[415px]  ml-10">
               Our expert team is ready to handle your projects with precision,
               delivering high-quality solutions on time. We become an extension
               of your team, ensuring seamless collaboration.

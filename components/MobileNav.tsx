@@ -70,18 +70,12 @@ export function AppSidebar() {
                   </SidebarMenuButton>
                 </SidebarMenuItem>
               ))}
+              <CallButtton />
             </SidebarMenu>
           </SidebarGroupContent>
         </SidebarGroup>
       </SidebarContent>
-      <SidebarFooter>
-        <Link href="https://cal.com/vineet-babar" target="blank">
-          <Button className="rounded-lg text-base font-normal bg-white text-black hover:bg-white hover:text-black shadow-xl">
-            Book a call Now
-            <MdKeyboardArrowRight width={20} height={20} />
-          </Button>
-        </Link>
-      </SidebarFooter>
+      <SidebarFooter></SidebarFooter>
     </Sidebar>
   );
 }

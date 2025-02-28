@@ -24,7 +24,7 @@ const ProjectCard = ({
           alt="thumbnail-project"
           width={600}
           height={400}
-          className="rounded-[40px] w-[450px] h-[350px] md:w-[600px] md:h-[400px] object-cover"
+          className="rounded-[40px] w-[450px] h-[350px] md:w-[600px] md:h-[400px] object-contain"
         />
       </div>
       <div className="p-summary flex flex-col md:gap-4 gap-2 max-w-[600px] w-full">
@@ -37,7 +37,7 @@ const ProjectCard = ({
             );
           })}
         </div>
-        <div className="p-info flex justify-between gap-2 items-center tracking-[-1%] md:px-0 px-2">
+        <div className="p-info flex flex-col md:flex-row  justify-between gap-6 md:gap-2 items-center tracking-[-1%] md:px-0 px-2">
           <div className="flex flex-col gap-1 text-start">
             <div className="p-title">
               <p className="font-medium md:text-2xl text-xl md:leading-[40px] leading-[30px]">
@@ -50,25 +50,27 @@ const ProjectCard = ({
               </p>
             </div>
           </div>
-          {id == 6 ? (
-            <div className="text-neutral-400">Comming Soon</div>
-          ) : (
-            <div className="p-view">
-              <CustomButton
-                bgColor="bg-white"
-                btnText="View"
-                linkSrc={
-                  id === 1
-                    ? "https://www.behance.net/vineetbabarux"
-                    : id === 5
-                    ? "https://www.behance.net/vineetbabarux"
-                    : `/work/${id}`
-                }
-                targetTab="_self"
-                textColor="text-[#292929]"
-              />
-            </div>
-          )}
+          <div className="flex justify-start ">
+            {id == 6 ? (
+              <div className="text-neutral-400 ">Coming Soon</div>
+            ) : (
+              <div className="flex justify-start">
+                <CustomButton
+                  bgColor="bg-white"
+                  btnText="View"
+                  linkSrc={
+                    id === 1
+                      ? "https://www.behance.net/vineetbabarux"
+                      : id === 5
+                      ? "https://www.behance.net/vineetbabarux"
+                      : `/work/${id}`
+                  }
+                  targetTab="_self"
+                  textColor="text-[#292929]"
+                />
+              </div>
+            )}
+          </div>
         </div>
       </div>
     </div>

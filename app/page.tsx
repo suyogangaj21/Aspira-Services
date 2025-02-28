@@ -17,8 +17,8 @@ import CustomButton from "./about/components/CustomButton";
 
 export default function Home() {
   return (
-    <main className="m-3 mx-4">
-      <div className="flex justify-center items-center flex-col min-h-[80vh] ">
+    <main className="md:m-3 md:mx-4">
+      <div className="flex justify-center items-center flex-col min-h-[50vh] md:min-h-[70vh] md:mt-10 ">
         <div className="flex justify-center px-4 items-center border shadow-md p-1 rounded-3xl text-sm font-normal">
           <h3 className="font-jet-mono  text-neutral-500 text-sm md:text-base">
             Your go-to Team for Websites & Apps
@@ -30,7 +30,7 @@ export default function Home() {
           products
         </h1>
         <div>
-          <p className="text-neutral-600 text-center text-sm md:text-base font-light mt-4  max-w-[480px] ">
+          <p className="text-neutral-600 text-center text-sm md:text-base font-light mt-4 px-7 md:px-2 max-w-[480px] ">
             From design and development to deployment, we create custom websites
             and apps that perfectly align with your vision.
           </p>
@@ -42,16 +42,16 @@ export default function Home() {
           <div className="flex justify-start">
             <ViewWorkButton />
           </div>
-          <span className="absolute -bottom-7 text-neutral-400 tracking-tighter">
+          <span className="absolute -bottom-7 text-neutral-400 text-sm">
             Response within 12 hours
           </span>
         </div>
       </div>
-      <div className="flex flex-col gap-12 items-center my-20  justify-center h-[300px]">
+      <div className="flex flex-col gap-12 items-center my-10 md:my-20  justify-center h-[300px]">
         <h2 className="font-medium text-xl md:text-4xl  leading-[44px] text-center">
           Certified by Industry Leaders You Trust
         </h2>
-        <div className="sm:flex gap-7 md:gap-14 flex justify-center mb-24  items-center flex-wrap">
+        <div className="sm:flex gap-7 md:gap-14 flex justify-center  items-center flex-wrap">
           <Image
             src="/companyLogo/google.png"
             alt="google"
@@ -89,7 +89,7 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className="flex flex-col gap-3 justify-center items-center mt-20">
+      <div className="flex flex-col gap-3 justify-center items-center mt-20 mx-3">
         <p className="flex gap-2 items-center rounded-xm shadow-sm border-neutral-200 border font-jet-mono text-neutral-500 rounded-3xl p-2 px-4">
           <MdOutlineReportGmailerrorred className="text-red-700 text-sm md:text-base" />{" "}
           The Problems
@@ -156,12 +156,12 @@ export default function Home() {
       <Services />
       <div className="flex w-full justify-center items-center">
         <div className="flex flex-col md:flex-row justify-between items-center w-full mx-3 md:mx-32 bg-[#F7F7F7] rounded-[1.25rem] p-6 md:p-10 mb-10">
-          <div className="flex flex-col items-start justify-center w-full ">
-            <p className="text-xl md:text-2xl font-medium">
-              Have unique or custom requests ? We are up for it 👍
+          <div className="flex flex-col items-center md:items-start justify-center w-full gap-3">
+            <p className="text-xl md:text-2xl font-medium text-center md:text-left">
+              Have unique or custom requests? We are up for it 👍
             </p>
 
-            <p className="font-light text-sm md:text-base">
+            <p className="font-light text-sm md:text-base text-center md:text-left">
               Feel free to reach out – we’re here to help brainstorm and turn
               your ideas into successful products.
             </p>

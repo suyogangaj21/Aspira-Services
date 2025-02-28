@@ -20,10 +20,10 @@ const FAQs = () => {
       <Accordion
         type="single"
         collapsible
-        className="max-w-[960px] w-full my-14 text-base sm:text-lg gap-5 flex flex-col "
+        className="max-w-[960px] w-full my-14 text-base sm:text-lg gap-5 flex flex-col justify-start "
       >
         <AccordionItem value="item-1">
-          <AccordionTrigger>
+          <AccordionTrigger className="flex text-left gap-2">
             I have a Figma design, can you turn it into a live website?
           </AccordionTrigger>
           <AccordionContent>
@@ -34,7 +34,7 @@ const FAQs = () => {
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-2">
-          <AccordionTrigger>
+          <AccordionTrigger className="text-left">
             Can you help redesign my existing website or product?
           </AccordionTrigger>
           <AccordionContent>
@@ -43,7 +43,9 @@ const FAQs = () => {
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-3">
-          <AccordionTrigger>Is your service refundable?</AccordionTrigger>
+          <AccordionTrigger className="text-left">
+            Is your service refundable?
+          </AccordionTrigger>
           <AccordionContent>
             Due to the custom nature of our work, all services are
             non-refundable. However, we’re committed to ensuring your
@@ -51,7 +53,7 @@ const FAQs = () => {
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-4">
-          <AccordionTrigger>
+          <AccordionTrigger className="text-left">
             How long does a typical project take?
           </AccordionTrigger>
           <AccordionContent>
@@ -60,7 +62,7 @@ const FAQs = () => {
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-5">
-          <AccordionTrigger>
+          <AccordionTrigger className="text-left">
             What if I'm not happy with the design?
           </AccordionTrigger>
           <AccordionContent>

@@ -39,8 +39,7 @@ const projectsInfo = [
     thumbnail: "/work/weddify.png",
     title: "Weddify-Helping users to plan & manage weddings effectively",
     isMobile: true,
-    description:
-      "effortlessly handle vendor choice to fit your budget ",
+    description: "Effortlessly handle vendor choice to fit your budget ",
     tags: ["Ideation", "Design", "Figma"],
     author: "Vinnet Babar",
     tech: ["Figma"],
@@ -50,7 +49,7 @@ const projectsInfo = [
       "Couples impulsively select high-cost vendors initially, leading to budget constraints later. ",
       "Less choices in vendor selection. ",
       "Disjointed vendor interactions, from inquiries to communicating.",
-      "Managing guest responses is a manual and stressful process."
+      "Managing guest responses is a manual and stressful process.",
     ],
     keyFeat: [
       "Comprehensive Health Records : Users can store a variety of medical documents—prescriptions, reports, diagnosis details, treatment history, and media (videos/images)—all in one place.",
@@ -142,13 +141,14 @@ const projectsInfo = [
     isMobile: true,
     description:
       "An anime-themed, secure, and scalable note-taking PWA with dynamic management.",
-    tags: ["Web Development", "Design", "Deployment", "Docker","AWS"],
+    tags: ["Web Development", "Design", "Deployment", "Docker", "AWS"],
     author: "Himanshu Jagadale",
-    tech: ["Typescript", "Terraform","Ansible" ,"Docker", "AWS"],
+    tech: ["Typescript", "Terraform", "Ansible", "Docker", "AWS"],
     timeRequired: "5 Weeks",
     images: ["/workid/Noteflix.png"],
     problems: [
-      "Lack of Personalization : Most note-taking apps provide generic interfaces, failing to offer users a sense of individuality or creative expression, which can diminish their motivation to use the app regularly.",      "Data Security and Integrity : Sharing sensitive medical records with healthcare providers, friends, or family often involves insecure methods, raising concerns about privacy and data tampering.",
+      "Lack of Personalization : Most note-taking apps provide generic interfaces, failing to offer users a sense of individuality or creative expression, which can diminish their motivation to use the app regularly.",
+      "Data Security and Integrity : Sharing sensitive medical records with healthcare providers, friends, or family often involves insecure methods, raising concerns about privacy and data tampering.",
       "Limited Accessibility : Without an integrated cloud solution, users face difficulties accessing their notes across devices securely and reliably.",
       "Tedious User Experience : Complex or cluttered interfaces of existing tools can make organizing, retrieving, and maintaining notes more cumbersome than it should be.",
       "Inadequate Visual Appeal: Conventional note-taking apps overlook the impact of an engaging and visually stimulating environment, which can play a vital role in boosting productivity and creativity.",
@@ -163,27 +163,32 @@ const projectsInfo = [
     ],
     approaches: [
       {
-        "heading": "Static Frontend Deployment:",
-        "content": "Initially, I considered deploying the application as a static site without any server-side rendering or dynamic backend integration. While this approach was simple and fast, it limited functionality like real-time updates, secure storage, and scalable search capabilities."
+        heading: "Static Frontend Deployment:",
+        content:
+          "Initially, I considered deploying the application as a static site without any server-side rendering or dynamic backend integration. While this approach was simple and fast, it limited functionality like real-time updates, secure storage, and scalable search capabilities.",
       },
       {
-        "heading": "Client-Side Storage:",
-        "content": "I explored using local storage or IndexedDB for saving notes directly on the user’s device. While this provided offline capabilities, it lacked scalability and cross-device synchronization, which are essential for a seamless user experience."
+        heading: "Client-Side Storage:",
+        content:
+          "I explored using local storage or IndexedDB for saving notes directly on the user’s device. While this provided offline capabilities, it lacked scalability and cross-device synchronization, which are essential for a seamless user experience.",
       },
       {
-        "heading": "Single-Tier Firebase Integration:",
-        "content": "My next approach was to integrate Firebase for both authentication and data storage. While this addressed synchronization and scalability, it didn’t offer flexibility in infrastructure management or allow for customization of the deployment pipeline."
+        heading: "Single-Tier Firebase Integration:",
+        content:
+          "My next approach was to integrate Firebase for both authentication and data storage. While this addressed synchronization and scalability, it didn’t offer flexibility in infrastructure management or allow for customization of the deployment pipeline.",
       },
       {
-        "heading": "Cloud-Native Architecture with CI/CD:",
-        "content": "To ensure a robust, scalable, and automated solution, I adopted a cloud-native architecture. I provisioned an AWS EC2 instance using Terraform and deployed the application using Ansible in a GitHub Actions pipeline. This approach enabled a seamless, Dockerized deployment process with infrastructure as code, making it easy to scale and maintain."
+        heading: "Cloud-Native Architecture with CI/CD:",
+        content:
+          "To ensure a robust, scalable, and automated solution, I adopted a cloud-native architecture. I provisioned an AWS EC2 instance using Terraform and deployed the application using Ansible in a GitHub Actions pipeline. This approach enabled a seamless, Dockerized deployment process with infrastructure as code, making it easy to scale and maintain.",
       },
       {
-        "heading": "Personalized User Experience:",
-        "content": "I designed the app to include dynamic anime-themed backgrounds. Initially, static designs were considered, but switching to a configurable setup allowed users to customize their experience while keeping the interface engaging and user-friendly."
-      }
+        heading: "Personalized User Experience:",
+        content:
+          "I designed the app to include dynamic anime-themed backgrounds. Initially, static designs were considered, but switching to a configurable setup allowed users to customize their experience while keeping the interface engaging and user-friendly.",
+      },
     ],
-    
+
     githubRepo: "https://github.com/Himan-Miku/Noteflix-v.2/",
   },
   {
@@ -195,7 +200,7 @@ const projectsInfo = [
       "An AI-powered platform for creating personalized, ATS-friendly resumes with ease.",
     tags: ["Web Development", "Design", "Deployment"],
     author: "Suyog Angaj",
-    tech: ["Web Development","React","NextJS"],
+    tech: ["Web Development", "React", "NextJS"],
     timeRequired: "5 Weeks",
     images: ["/workid/AIResume.png"],
     problems: [
@@ -203,38 +208,42 @@ const projectsInfo = [
       "Lack of Personalization : Existing platforms fail to provide tools for creating highly personalized, role-specific resumes that align with individual job requirements.",
       "Difficulty Meeting ATS Standards : Many resumes get rejected by Applicant Tracking Systems due to poor formatting or lack of optimized keywords.",
       "Limited Design Flexibility : Users struggle to balance visual appeal with professionalism due to rigid and generic templates offered by current solutions.",
-      "Inconsistent File Formats : Exporting resumes to PDF often results in formatting issues, such as misaligned sections and distorted designs, undermining professionalism."
+      "Inconsistent File Formats : Exporting resumes to PDF often results in formatting issues, such as misaligned sections and distorted designs, undermining professionalism.",
     ],
     keyFeat: [
-     "AI Content Generation : Automatically generate job-specific descriptions, summaries, and skills while suggesting impactful phrases and ATS-friendly keywords.",
-  "Customizable Templates : Provide modern, editable templates tailored for different industries with options to personalize colors, fonts, and layouts.",
-  "Real-Time Preview : Enable live updates to display as users edit their resumes, ensuring all changes are instantly visible.",
-  "PDF Export : Offer professional, text-selectable PDF exports that maintain ATS compatibility and ensure high-quality formatting.",
-  "Cloud Save and Accessibility : Allow users to save progress and access resumes anytime through a mobile-friendly, responsive design."
+      "AI Content Generation : Automatically generate job-specific descriptions, summaries, and skills while suggesting impactful phrases and ATS-friendly keywords.",
+      "Customizable Templates : Provide modern, editable templates tailored for different industries with options to personalize colors, fonts, and layouts.",
+      "Real-Time Preview : Enable live updates to display as users edit their resumes, ensuring all changes are instantly visible.",
+      "PDF Export : Offer professional, text-selectable PDF exports that maintain ATS compatibility and ensure high-quality formatting.",
+      "Cloud Save and Accessibility : Allow users to save progress and access resumes anytime through a mobile-friendly, responsive design.",
     ],
     approaches: [
       {
-        "heading": "Frontend-Centric Architecture",
-        "content": "Initially, I considered implementing the entire application using a frontend-only approach with Next.js to simplify development. However, this limited the ability to handle advanced features like user data persistence, AI processing, and notifications effectively."
+        heading: "Frontend-Centric Architecture",
+        content:
+          "Initially, I considered implementing the entire application using a frontend-only approach with Next.js to simplify development. However, this limited the ability to handle advanced features like user data persistence, AI processing, and notifications effectively.",
       },
       {
-        "heading": "Direct PDF Generation",
-        "content": "I explored directly exporting HTML to PDF on the client-side using libraries like jsPDF. While functional, this approach struggled with maintaining advanced styling and layout precision for complex resume designs."
+        heading: "Direct PDF Generation",
+        content:
+          "I explored directly exporting HTML to PDF on the client-side using libraries like jsPDF. While functional, this approach struggled with maintaining advanced styling and layout precision for complex resume designs.",
       },
       {
-        "heading": "Efficient State Management",
-        "content": "State management on the frontend was optimized to allow real-time updates to the resume preview, ensuring a smooth and responsive user experience."
+        heading: "Efficient State Management",
+        content:
+          "State management on the frontend was optimized to allow real-time updates to the resume preview, ensuring a smooth and responsive user experience.",
       },
       {
-        "heading": "Customizable Template System",
-        "content": "I implemented a centralized template system in the Next.js backend, enabling users to select and customize professionally designed resume templates easily."
+        heading: "Customizable Template System",
+        content:
+          "I implemented a centralized template system in the Next.js backend, enabling users to select and customize professionally designed resume templates easily.",
       },
       {
-        "heading": "Hybrid Storage Strategy",
-        "content": "To optimize performance and cost, user-generated resumes are stored in MongoDB for structured data, while finalized PDFs are optionally saved to cloud storage (e.g., AWS S3) for easy retrieval and sharing."
-      }
-    ]
-,    
+        heading: "Hybrid Storage Strategy",
+        content:
+          "To optimize performance and cost, user-generated resumes are stored in MongoDB for structured data, while finalized PDFs are optionally saved to cloud storage (e.g., AWS S3) for easy retrieval and sharing.",
+      },
+    ],
     githubRepo: "https://ai-resume-builder-snowy.vercel.app/",
   },
   {
@@ -254,48 +263,51 @@ const projectsInfo = [
       "Limited Collaboration Opportunities : Existing platforms fail to provide tools for professional collaboration and mentorship between alumni.",
       "No Unified Feed : Alumni miss a dedicated space to share updates, achievements, and job opportunities with their college peers.",
       "Difficulty Finding College Mates : Finding and connecting with former classmates or colleagues is cumbersome without an optimized search and reach-out feature.",
-      "Scattered Communication : Alumni rely on fragmented channels for communication, leading to a lack of organized interaction and engagement."
+      "Scattered Communication : Alumni rely on fragmented channels for communication, leading to a lack of organized interaction and engagement.",
     ],
     keyFeat: [
       "Centralized Alumni Directory : Provide a searchable directory to help alumni find and connect with former classmates and colleagues effortlessly.",
       "Social Feed : Enable users to share updates, achievements, and job opportunities through a dedicated feed, fostering engagement and collaboration.",
       "Private Messaging : Allow secure and direct communication between alumni for personal or professional outreach.",
       "Event Management : Facilitate the creation, sharing, and participation in alumni events and reunions directly through the platform.",
-      "Mobile-Friendly Design : Ensure seamless access across devices with a responsive and mobile-friendly interface."
+      "Mobile-Friendly Design : Ensure seamless access across devices with a responsive and mobile-friendly interface.",
     ],
     approaches: [
       {
-        "heading": "Frontend-Centric Development",
-        "content": "Initially, I considered building the platform entirely on the frontend with Next.js to simplify development. However, this approach struggled to support features like real-time updates, authentication, and data storage efficiently."
+        heading: "Frontend-Centric Development",
+        content:
+          "Initially, I considered building the platform entirely on the frontend with Next.js to simplify development. However, this approach struggled to support features like real-time updates, authentication, and data storage efficiently.",
       },
       {
-        "heading": "Real-Time Database Integration",
-        "content": "Firebase was used to enable real-time updates for the social feed, messaging, and event management, ensuring dynamic and instant interactions among users."
+        heading: "Real-Time Database Integration",
+        content:
+          "Firebase was used to enable real-time updates for the social feed, messaging, and event management, ensuring dynamic and instant interactions among users.",
       },
       {
-        "heading": "Optimized Search Functionality",
-        "content": "An advanced search system was implemented to allow users to find alumni based on name, graduation year, or professional field easily."
+        heading: "Optimized Search Functionality",
+        content:
+          "An advanced search system was implemented to allow users to find alumni based on name, graduation year, or professional field easily.",
       },
       {
-        "heading": "Customizable Profiles",
-        "content": "User profiles were designed to include customizable sections for personal, academic, and professional details, ensuring a rich networking experience."
+        heading: "Customizable Profiles",
+        content:
+          "User profiles were designed to include customizable sections for personal, academic, and professional details, ensuring a rich networking experience.",
       },
       {
-        "heading": "Secure and Scalable Backend",
-        "content": "A secure backend with Firebase Authentication and Firestore was implemented to handle user data, enable privacy controls, and ensure scalability for a growing user base."
-      }
+        heading: "Secure and Scalable Backend",
+        content:
+          "A secure backend with Firebase Authentication and Firestore was implemented to handle user data, enable privacy controls, and ensure scalability for a growing user base.",
+      },
     ],
-    githubRepo: "https://alumni-portal-connect.vercel.app/"
-  }
-  ,
+    githubRepo: "https://alumni-portal-connect.vercel.app/",
+  },
   {
     id: 6,
     thumbnail: "/work/Aspira.png",
     title: "Aspira-Job Portal ",
     isMobile: true,
-    description:
-      " platform that bridges job seekers and employers",
-    tags: ["UI/UX","Design"],
+    description: "Platform that bridges job seekers and employers",
+    tags: ["UI/UX", "Design"],
     author: "Vinnet Baber",
     tech: ["Android", "Flutter", "Docker", "AWS", "Solidity"],
     timeRequired: "5 Weeks",
