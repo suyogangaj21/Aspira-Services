@@ -5,7 +5,7 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import { SidebarProvider } from "@/components/ui/sidebar";
 import { AppSidebar } from "@/components/MobileNav";
-
+import { Analytics } from "@vercel/analytics/next";
 const onest = Onest({
   variable: "--font-onest",
   subsets: ["latin"],
@@ -43,6 +43,7 @@ export default function RootLayout({
             <Footer />
           </div>
         </SidebarProvider>
+        <Analytics />
       </body>
     </html>
   );
