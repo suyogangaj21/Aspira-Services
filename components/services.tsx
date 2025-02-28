@@ -74,7 +74,7 @@ const Services = () => {
             </div>
             <CallButtton />
           </div>
-          <div className="w-[350px] h-[300px] sm:w-[440px] sm:h-[440px] flex justify-center items-center">
+          <div className="w-[300px] h-[300px] sm:w-[440px] sm:h-[440px] flex justify-center items-center">
             <DotLottieReact
               src="https://lottie.host/4e5184d2-a25c-4a97-aa09-d7c8ffc518ba/J7d0ewr1R4.lottie"
               loop
@@ -138,7 +138,7 @@ const Services = () => {
             </div>
             <CallButtton />
           </div>
-          <div className="w-[350px] h-[300px] sm:w-[440px] sm:h-[440px] flex justify-center items-center">
+          <div className="w-[300px] h-[300px] sm:w-[440px] sm:h-[440px] flex justify-center items-center">
             <DotLottieReact
               src="https://lottie.host/ad0da6c5-a8e5-4fab-9255-8e9a7ebfb703/2vdE4hg2WP.lottie"
               loop
@@ -201,7 +201,7 @@ const Services = () => {
             </div>
             <CallButtton />
           </div>
-          <div className="w-[350px] h-[300px] sm:w-[440px] sm:h-[440px] flex justify-center items-center">
+          <div className="w-[300px] h-[300px] sm:w-[440px] sm:h-[440px] flex justify-center items-center">
             <DotLottieReact
               src="https://lottie.host/23562f17-ae14-4fdf-8adc-dd3b137a81d1/xxveDUptA9.lottie"
               loop

@@ -25,8 +25,9 @@ export default function Home() {
           </h3>
         </div>
 
-        <h1 className="text-5xl md:text-6xl tracking-[-2px] max-w-[800px] text-center sm:text-6xl font-medium mt-2 md:leading-[68px] flex flex-col ">
-          We turn your ideas into unqiue software products
+        <h1 className="text-4xl md:text-6xl tracking-[-2px]  text-center  font-medium mt-4 md:leading-[68px] flex flex-col ">
+          <span>We turn your ideas</span> <span>into unqiue software</span>{" "}
+          products
         </h1>
         <div>
           <p className="text-neutral-600 text-center text-sm md:text-base font-light mt-4  max-w-[480px] ">
@@ -34,40 +35,55 @@ export default function Home() {
             and apps that perfectly align with your vision.
           </p>
         </div>
-        <div className="flex gap-4 mt-8">
+        <div className="flex gap-4 mt-12 relative">
           <div className="flex flex-col gap-4 ">
             <CallButtton />
           </div>
-          <ViewWorkButton />
+          <div className="flex justify-start">
+            <ViewWorkButton />
+          </div>
+          <span className="absolute -bottom-7 text-neutral-400 tracking-tighter">
+            Response within 12 hours
+          </span>
         </div>
       </div>
       <div className="flex flex-col gap-12 items-center my-20  justify-center h-[300px]">
-        <h2 className="font-medium text-4xl leading-[44px] text-center">
+        <h2 className="font-medium text-xl md:text-4xl  leading-[44px] text-center">
           Certified by Industry Leaders You Trust
         </h2>
-        <div className="sm:flex gap-14 flex justify-center mb-24  items-center flex-wrap">
+        <div className="sm:flex gap-7 md:gap-14 flex justify-center mb-24  items-center flex-wrap">
           <Image
             src="/companyLogo/google.png"
             alt="google"
+            className="w-[28px] h-[28px] md:w-[50px] md:h-[50px]"
             width={54}
             height={55}
           />
           <Image
             src="/companyLogo/android.png"
             alt="android"
+            className="w-[30px] h-[30px] md:w-[50px] md:h-[50px]"
             width={60}
             height={60}
           />
-          <Image src="/companyLogo/aws.png" alt="aws" width={89} height={54} />
+          <Image
+            src="/companyLogo/aws.png"
+            alt=" amazon aws"
+            className="w-[46px] h-[30px] md:w-[89px] md:h-[54px]"
+            width={89}
+            height={54}
+          />
           <Image
             src="/companyLogo/meta-icon.png"
             alt="Meta"
+            className="w-[46px] h-[30px] md:w-[80px] md:h-[54px]"
             width={80}
             height={54}
           />
           <Image
             src="/companyLogo/googlecloud.png"
             alt="googlecloud"
+            className="w-[34px] h-[28px] md:w-[68px] md:h-[54px]"
             width={68}
             height={54}
           />

@@ -20,7 +20,13 @@ const Footer = () => {
         />
         <span>Aspira</span>
       </div>
-      <Navlinks />
+      <div className="flex items-center justify-between w-full px-10 max-w-[290px]">
+        <Link href="https://www.linkedin.com/company/aspira.services/">
+          LinkedIn
+        </Link>
+        <Link href="https://x.com/Aspira_services">X</Link>
+        <Link href="https://x.com/Aspira_services">Instagram</Link>
+      </div>
       <div className="flex items-center justify-center gap-5 flex-col md:flex-row">
         <Link
           href="mailto:vineetbabar08@gmail.com"
