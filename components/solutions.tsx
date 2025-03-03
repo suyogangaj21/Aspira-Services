@@ -12,7 +12,7 @@ const Solutions = () => {
               <span className="font-medium leading-10 relative left-0 ">
                 1.
               </span>
-              <span className="ml-5 ">We Design </span>
+              <span className="ml-3 ">We Design </span>
 
               <span className=" ">
                 <Image
@@ -24,10 +24,10 @@ const Solutions = () => {
                 />
               </span>
               <span className="">Stunning</span>
-              <span className="ml-9  ">Websites and Apps</span>
+              <span className="ml-7 ">Websites and Apps</span>
             </h2>
 
-            <p className="text-base md:text-lg text-muted-foreground max-w-[415px]  ml-7">
+            <p className="text-base md:text-lg text-muted-foreground max-w-[415px]  ml-12">
               We design visually appealing and intuitive websites and apps that
               reflect your brand's personality while ensuring exceptional user
               experience and performance.
@@ -76,7 +76,7 @@ const Solutions = () => {
               <span className="ml-7 ">projects to our team</span>
             </h2>
 
-            <p className="text-base md:text-lg text-muted-foreground max-w-[415px]  ml-10">
+            <p className="text-base md:text-lg text-muted-foreground max-w-[415px]  ml-12">
               Our expert team is ready to handle your projects with precision,
               delivering high-quality solutions on time. We become an extension
               of your team, ensuring seamless collaboration.
@@ -112,7 +112,7 @@ const Solutions = () => {
               <span className="ml-10">Lifecycle Support</span>
             </h2>
 
-            <p className="text-base md:text-lg text-muted-foreground max-w-[415px]  ml-10">
+            <p className="text-base md:text-lg text-muted-foreground max-w-[415px]  ml-9">
               Our expert team is ready to handle your projects with precision,
               delivering high-quality solutions on time. We become an extension
               of your team, ensuring seamless collaboration.

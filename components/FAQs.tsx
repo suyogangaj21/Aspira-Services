@@ -10,11 +10,11 @@ import {
 const FAQs = () => {
   return (
     <div className="flex flex-col gap-4 items-center justify-center  my-20 mt-28 mx-5">
-      <p className="flex gap-2 items-center rounded-xm shadow-sm border-neutral-200 border font-jet-mono text-neutral-500 rounded-3xl p-2 px-4">
+      <p className="flex gap-2  text-xs md:text-base items-center rounded-xm shadow-sm border-neutral-200 border font-jet-mono text-neutral-500 rounded-3xl p-2 px-4">
         <FaCircleQuestion className="" />
         FAQ's
       </p>
-      <h2 className="font-medium text-4xl leading-[44px] text-center max-w-[600px]">
+      <h2 className="font-medium text-3xl md:text-4xl leading-[44px] text-center max-w-[600px]">
         Have Questions? We’re Here to Clear Your Doubts.{" "}
       </h2>
       <Accordion

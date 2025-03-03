@@ -11,10 +11,10 @@ import Link from "next/link";
 const Services = () => {
   return (
     <div className="flex flex-col justify-center items-center mt-28 gap-4 mx-4 lg:mx-32 m-12">
-      <p className="flex gap-2 items-center rounded-xm shadow-sm border-neutral-200 border font-jet-mono text-neutral-500 rounded-3xl p-2 px-4">
+      <p className="flex gap-2 items-center rounded-xm shadow-xs border-neutral-200 border font-jet-mono text-neutral-500 rounded-3xl p-2 px-4">
         <BiSolidBadgeDollar className="" /> Pricing
       </p>
-      <h2 className="font-medium text-4xl leading-[44px] text-center max-w-[600px]">
+      <h2 className="font-medium  text-3xl md:text-4xl leading-[44px] text-center max-w-[600px]">
         Website & App Packages Designed to Suit Your Budget and Goals{" "}
       </h2>
       <div className="flex flex-col gap-6 mt-6">

@@ -47,8 +47,8 @@ export default function Home() {
           </span>
         </div>
       </div>
-      <div className="flex flex-col gap-12 items-center my-10 md:my-20  justify-center h-[300px]">
-        <h2 className="font-medium text-xl md:text-4xl  leading-[44px] text-center">
+      <div className="flex flex-col gap-12 items-center my-8 md:my-20 justify-center h-[300px]">
+        <h2 className="font-medium text-3xl md:text-4xl  leading-[44px] text-center">
           Certified by Industry Leaders You Trust
         </h2>
         <div className="sm:flex gap-7 md:gap-14 flex justify-center  items-center flex-wrap">
@@ -90,8 +90,8 @@ export default function Home() {
         </div>
       </div>
       <div className="flex flex-col gap-3 justify-center items-center mt-20 mx-3">
-        <p className="flex gap-2 items-center rounded-xm shadow-sm border-neutral-200 border font-jet-mono text-neutral-500 rounded-3xl p-2 px-4">
-          <MdOutlineReportGmailerrorred className="text-red-700 text-sm md:text-base" />{" "}
+        <p className="flex gap-2 items-center text-xs md:text-base rounded-xm shadow-sm border-neutral-200 border font-jet-mono text-neutral-500 rounded-3xl p-2 px-4">
+          <MdOutlineReportGmailerrorred className="text-red-700 text-xs md:text-base" />{" "}
           The Problems
         </p>
         <h2 className="font-medium text-3xl md:text-4xl leading-[44px] text-center max-w-[600px] ">
@@ -142,7 +142,7 @@ export default function Home() {
         </div>
       </div>
       <div className="flex flex-col gap-3 justify-center items-center mt-32">
-        <p className="flex gap-2 items-center rounded-xm text-sm md:text-base shadow-sm border-neutral-200 border font-jet-mono text-neutral-500 rounded-3xl p-2 px-4">
+        <p className="flex gap-2 items-center rounded-xm text-xs md:text-base shadow-sm border-neutral-200 border font-jet-mono text-neutral-500 rounded-3xl p-2 px-4">
           <FaMagic className="" /> Our Solutions
         </p>
         <h2 className="font-medium text-3xl md:text-4xl leading-[44px] text-center max-w-[600px]">
@@ -157,7 +157,7 @@ export default function Home() {
       <div className="flex w-full justify-center items-center">
         <div className="flex flex-col md:flex-row justify-between items-center w-full mx-3 md:mx-32 bg-[#F7F7F7] rounded-[1.25rem] p-6 md:p-10 mb-10">
           <div className="flex flex-col items-center md:items-start justify-center w-full gap-3">
-            <p className="text-xl md:text-2xl font-medium text-center md:text-left">
+            <p className="text-3xl md:text-4xl font-medium text-center md:text-left">
               Have unique or custom requests? We are up for it 👍
             </p>
 
